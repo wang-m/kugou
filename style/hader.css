@@ -1,0 +1,40 @@
+*{margin:0;padding: 0;}
+span{display: inline-block;}
+input{outline: none;}
+i{display: inline-block;}
+button{outline: none;border:none}
+a{text-decoration: none;}
+.header{width:1366px;height:78px;position:relative;margin:auto;z-index: 10000;}
+/*banner1_nav1*/
+.header .logo_img{width:155px;height:37px;margin:20px 0 22px 176px;background: url(../img/logo.png) no-repeat;display: inline-block;}
+.header .search{margin-left: 371px;width:300px;height:40px;position:absolute;top:20px;}
+.header .search input{width:239px;height:33px;padding-left:17px;padding-right:40px;}
+.header .search .bigjing{width:40px;height: 40px;position:absolute;top:0;right:0}
+.header .search .bigjing i{display:block;width:16px;height: 16px;margin:12px;cursor:pointer;background:url(../img/search.png) no-repeat;background-position: -40px -56px;}
+.header .banner{margin-left: 791px;width:248px;height: 78px;position:absolute;top:0px;}
+.header .banner span{cursor:pointer;width:53px;height: 16px;font-size: 13px;color:#777;margin-right: 26px;}
+.header .banner span:hover{color:#0c8ed9}
+.header .banner div{height:21px;border-right:1px solid #777;margin:31px 0px 31px 0;color:#777;}
+.header .sign{width:140px;height:78px;position:absolute;top:0;left:1068px}
+.header .sign .btn{cursor:pointer;width:50px;height:30px;border-radius: 3px;border:1px solid #DDDDDD;margin:25px 0 23px 0}
+.header .sign .btn:nth-child(1){color:#fff;background: #169af3;}
+.header .sign .btn:nth-child(2){color:#777;background: #fff;}
+.header .sign .btn:nth-child(2):hover{color:#0c8ed9;border:1px solid #0c8ed9;}
+.header .banner1{width:100%;height: 55px;background:#2c323b;}
+.header .banner1 .banner1_nav1{width:593px;height:100%;margin-left: 177px;}
+.header .banner1 .banner1_nav1 span.banner1_span{font-size:16px;line-height:55px;color:#fff;line-height: 55px;text-align: center;padding:0 30px;cursor:pointer}
+.header .banner1 .banner1_nav1 span a{color:#fff}
+.header .banner1 .banner1_nav1 span.banner1_span:hover{background:#0c8ed9}
+.header .banner1 .banner1_nav1 span:nth-child(4) i{display: inline-block;width:11px;height: 6px;background:url(../img/arrowMored.png) no-repeat;margin:0 0 0 11px;padding: 3px 0 0 0;}
+/*.header .banner1 .banner1_nav1 span:nth-child(4):hover ul{display: block;}*/
+.header .banner1 .banner1_nav1 ul{width:119px;height:auto;z-index: 100;background:#2c323b;margin-left:333px;display: none;}
+.header .banner1 .banner1_nav1 ul li{width:100%;height:36px;list-style: none;text-align: center;line-height: 36px;color:#fff}
+.header .banner1 .banner1_nav1 ul li:hover{background:#0c8ed9 ;cursor:pointer}
+.header .banner1 .banner2_nav2{width:592px;height: 55px;line-height:55px;position:absolute;right:0;top:82px;margin-left:173px}
+.header .banner1 .banner2_nav2 a{width:54px;height:55px;padding-left: 20px;font-size:13px;color:#fff;margin-right:22px;color:#bbbbbb;display: inline;}
+.header .banner1 .banner2_nav2 a:hover{color:#0c8ed9}
+.header .banner1 .banner2_nav2 a:nth-child(1){background: url(../img/sprite.png) no-repeat;background-position:0 -121px ;}
+.header .banner1 .banner2_nav2 a:nth-child(2){background: url(../img/sprite.png) no-repeat;background-position:0 -156px ;}
+.header .banner1 .banner2_nav2 a:nth-child(3){background: url(../img/sprite.png) no-repeat;background-position:0 -192px ;}
+.header .banner1 .banner2_nav2 a:nth-child(4){background: url(../img/sprite.png) no-repeat;background-position:0 -228px ;}
+.header .banner1 .banner2_nav2 a:nth-child(5){background: url(../img/sprite.png) no-repeat;background-position:0 -282px ;}

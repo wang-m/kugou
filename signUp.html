@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href='style/index.css' />
+		<style>
+			.stata1{color:#AAAAAA}
+			.stata2{color:#000000}
+			.stata3{color:red}
+			.stata4{color:green}
+		</style>
+	</head>
+	<body>
+		<div id='signUp' class='clear'>
+			<div class='public_header_wrapper'>
+				<div class='public_header'>
+					<div class='public_nav fr'>
+						<nav>
+							<a href='javascript:;' class='loading'>登录</a>
+							<a href='javascript:;' class='loading'>注册</a>
+							<a>|</a>
+							<a href='javascript:;' class='shopingcar'></a>
+						</nav>
+					</div>
+				</div>
+			</div>
+			
+			<div class='pubic_nav_wrapper'>
+				<nav class='public_nav'>
+					<h1 class='logo'>
+						<a href="javascript:;"><img src='img/herder_logo.jpg' /></a>
+					</h1>
+					<ul class='clear n1'>
+						<li><a href='javascript:;'>酷狗商城</a></li>
+						<li><a href='javascript:;'>下载客户端</a></li>
+						<li><a href='javascript:;'>音乐直播</a></li>
+						<li><a href='javascript:;'>酷狗音乐人</a></li>
+					</ul>
+					<ul class='clear n2'>
+						<li><a href='javascript:;'>产品中心</a></li>
+						<li><a href='javascript:;'>VIP中心</a></li>
+						<li><a href='javascript:;'>客服中心</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class='signBox'>
+				<!--注册主体-->
+				
+				<p class='signheader'>
+					<a href='javascript:;'>
+						<span class='sjbg'></span>
+					</a>
+				</p>
+				<div class='signBox_ct'>
+					<form method='get' onsubmit="return reg('c')">
+						<ul>
+							<li><span class='signhm'>*手机号码:</span><input type='text' class='yz' name='phonehao'/><span class='tx'>请输入手机号</span></li>
+							<li><span class='signhm'>*短信验证:</span><input type='text' class='yz' name='dxyz'/><span class='tx' style='margin-left:85px;position: absolute;margin-top: 5px;'>请输入正确的验证码</span><button>获取短信</button><span class='tx'>请输入正确的验证码</span></li>
+							<li class='mm'><span class='signhm'>*密码:</span><input type='password' class='yz'/ name='password'><span class='tx'>请输入6-16个数字，字母和符号组成</span></li>
+							<li class='maqdli'><span class='mmqd fl'>密码强度：弱</span><i></i><i></i><i></i><span class='fr'>强</span></li>
+							<li><span class='signhm'>*确认密码:</span><input type='password' class='yz' name='regpassword'/><span class='tx'>请再次输入密码</span></li>
+							<li class='sex'>
+								<span class='signhm'>*性别:</span>
+								<input type='radio' name='sex' checked="checked"></input><b>男性</b>
+								<input type='radio' name='sex'></input><b>女性</b>
+							</li>
+							<li class='xy'>
+								<p><input type="checkbox" checked="checked"/>我已认真阅读并同意&nbsp;&nbsp;<a href='javascript:;'>用户协议</a>&nbsp;&nbsp;<a href='javascript:;'>隐私政策</a></p>
+							</li>
+						</ul>
+						<input type='submit' class='zc' name='sub' value='注册'></input>
+					</form>
+				</div>
+				
+			</div>
+			<iframe src='footer.html' frameborder="no" scrolling="no">
+				<a href='footer.html'></a>
+			</iframe>
+			<!--大的登录遮罩层-->
+					<div class='bigzhaoceng clear' style='display: none;'>
+					<div class='loadingbox' style='display: none;'>
+						<span class='close fr'></span>
+						<p class='denglu'></p>
+						<p class='op op1'><label>账号 :</label><input class='yhm' type='text' placeholder="用户名" /></p>
+						<p class='op'><label>密码 :</label><input class='mm' type='text' placeholder="密码" /></p>
+						<div class='kg_popup_tool_area'>
+							<p class='kg_popup_tool_area_p'>
+								<input type='checkbox' checked="checked" class='kg_checkbox'/>
+								<label class='nextloading'>下次自动登陆</label>
+								
+								<a class='wjmm'>忘记密码?</a><a class='ljzc' name='sub'>立即注册&nbsp;&nbsp;</a>
+							</p>
+						</div>
+						<button class='dlBtn'><a href='javascript:;'>登&nbsp;录</a></button>
+						<p class='qt_bottom'>
+							<label>其他登录方式:</label>
+							<a href='javascript:;' class='wb' title='使用新浪微博帐号登录'></a>
+							<a href='javascript:;' class='qq' title='使用qq帐号登录'></a>
+							<a href='javascript:;' class='rr' title='使用人人帐号登录'></a>
+							<a href='javascript:;' class='wx' title='使用微信帐号登录'></a>
+							
+						</p>
+						<div class='qt_right fr'>
+							<a href='javascript:;'>用户协议</a>
+							<a href='javascript:;'>隐私政策&nbsp;</a>
+						</div>
+					</div>
+				</div>
+				<!--大的登录遮罩层结束-->
+		</div>
+	</body>
+</html>
+<script src='js/jquery-1.7.2.min.js'></script>
+
+<script src='js/signUp.js'></script>
+<script src='js/formReg.js'></script>
