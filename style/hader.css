@@ -4,6 +4,12 @@ input{outline: none;}
 i{display: inline-block;}
 button{outline: none;border:none}
 a{text-decoration: none;}
+
+
+
+
+
+
 .header{width:1366px;height:78px;position:relative;margin:auto;z-index: 10000;}
 /*banner1_nav1*/
 .header .logo_img{width:155px;height:37px;margin:20px 0 22px 176px;background: url(../img/logo.png) no-repeat;display: inline-block;}
@@ -12,7 +18,7 @@ a{text-decoration: none;}
 .header .search .bigjing{width:40px;height: 40px;position:absolute;top:0;right:0}
 .header .search .bigjing i{display:block;width:16px;height: 16px;margin:12px;cursor:pointer;background:url(../img/search.png) no-repeat;background-position: -40px -56px;}
 .header .banner{margin-left: 791px;width:248px;height: 78px;position:absolute;top:0px;}
-.header .banner span{cursor:pointer;width:53px;height: 16px;font-size: 13px;color:#777;margin-right: 26px;}
+.header .banner span{cursor:pointer;width:53px;height: 16px;font-size: 13px;color:#777;margin-right: 21px;}
 .header .banner span:hover{color:#0c8ed9}
 .header .banner div{height:21px;border-right:1px solid #777;margin:31px 0px 31px 0;color:#777;}
 .header .sign{width:140px;height:78px;position:absolute;top:0;left:1068px}

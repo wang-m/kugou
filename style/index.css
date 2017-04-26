@@ -1,3 +1,38 @@
+					/* 全局样式 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{
+    margin:0;padding:0;border:0;
+}
+/*body{
+    background:#fff;color:#333;font-size:12px; margin-top:5px;font-family:"SimSun","宋体","Arial Narrow";
+}*/
+ul,ol{
+    list-style-type:none;
+}
+select,input,img,select{
+    vertical-align:middle;
+}
+a{text-decoration:none;}
+/*a:link{color:#009;}banner_download#banner .banner_footer a
+a:visited{color:#800080;}
+a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}	*/
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			/*头部css开始*/
 				
 			/*头部css结束*/
@@ -28,7 +63,7 @@
 			#banner .banner_radius span.banner_Active{width:10px;height:10px;background:#fff;opacity: 1;}
 			#banner .banner_footer{width:100%;height: 60px;background:rgba(0,0,0,0.3);position:absolute;bottom: 0;z-index: 99;}
 			#banner .banner_footer a{color:#fff;font-size:15px;text-align: center;height:22px;padding: 0 101px 0 10px;font-size: 15px;margin:auto;margin:0 0 0 121px;}
-			#banner .banner_footer a:nth-child(1){width:107px;background: url(../img/pc.png) no-repeat;}
+			#banner .banner_footer a:nth-child(1){width:100px;background: url(../img/pc.png) no-repeat;}
 			#banner .banner_footer a:nth-child(2){width:141px;background: url(../img/mac.png) no-repeat;}
 			#banner .banner_footer a:nth-child(3){width:145px;background: url(../img/andriod.png) no-repeat;}
 			#banner .banner_footer .banner_download{width:1100px;margin:19px auto;}
@@ -101,7 +136,7 @@
 		#main .main_2 .main_right .main_right_bottom .top div{display:none;cursor: pointer;width:320px;height:175px;background:rgba(0,0,0,0.2);position:absolute;top:0;left:0}
 		#main .main_2 .main_right .main_right_bottom .top div span{width:37px;height:41px;background:url(../img/sprite.png) no-repeat;background-position: 0 -357px;position:absolute;left:50%;top:50%;margin-left:-20px;margin-top:-20px;}
 		#main .main_2 .main_right .main_right_bottom .top:hover div{display: block;}
-		#main .main_2 .main_right .main_right_bottom .top .top_span{width:320px;height:50px;background:rgba(0,0,0,0.3);position:absolute;top:125px;color:#fff;font-weight: 200;}
+		#main .main_2 .main_right .main_right_bottom .top .top_span{width:320px;height:50px;background:rgba(0,0,0,0.3);position:absolute;top:125px;color:#fff;font-weight: 200;left:0}
 		#main .main_2 .main_right .main_right_bottom .top .top_span p{margin:10px 0 0 5px;font-size:14px;}
 		#main .main_2 .main_right .main_right_bottom .botton:hover div{display: block;}
 		#main .main_2 .main_right .main_right_bottom .botton div{width:153px;height:83px;position:relative;background:rgba(0,0,0,0.2);display: none;}
@@ -119,7 +154,7 @@
 		#main .main_3 .main_left .main_left_bottom ul li a{width:100px;height: 100px;}
 		#main .main_3 .main_left .main_left_bottom ul li a div.radiologo img{width:100%;height: 100%;}
 		
-		#main .main_3 .main_left .main_left_bottom ul li a div.cover{display:none;width:100px;height:100px;position:relative;top:-103px;left:0;background:rgba(0,0,0,0.2);border-radius: 50%;}
+		#main .main_3 .main_left .main_left_bottom ul li a div.cover{display:none;width:100px;height:100px;position:relative;top:-101px;left:0;background:rgba(0,0,0,0.2);border-radius: 50%;}
 		#main .main_3 .main_left .main_left_bottom ul li a div.cover span{width:37px;height:41px;background:url(../img/sprite.png);background-position: 0 -357px;left:50%;top:50%;margin-left:-17px;margin-top:-21px;position:absolute}
 		#main .main_3 .main_left .main_left_bottom ul li a:hover div.cover{display: block;}
 		#main .main_3 .main_left .main_left_bottom ul li a:hover .radiologo .radiokind{color:#009af3}
@@ -145,7 +180,7 @@
 		#main .main_3 .main_right .main_right_botton ul li .cptMin a{width:154px;height:159px;}
 		#main .main_3 .main_right .main_right_botton ul li .cptsim a{width:99px;height:99px;}
 		#main .main_3 .main_right .main_right_botton ul li .cptsim a .zhaoceng{width:100%;height:100%;position:relative;top:-103px;background:rgba(0,0,0,0.3);display: none;}
-		#main .main_3 .main_right .main_right_botton ul li .cptMin a .zhaoceng{width:100%;height:100%;position:relative;top:-164px;background:rgba(0,0,0,0.3);display: none;}
+		#main .main_3 .main_right .main_right_botton ul li .cptMin a .zhaoceng{width:100%;height:100%;position:relative;top:-158px;background:rgba(0,0,0,0.3);display: none;}
 		#main .main_3 .main_right .main_right_botton ul li .cpt:hover a .zhaoceng{display:block ;}
 		#main .main_3 .main_right .main_right_botton ul li .cptMin a span{color:#fff;width:100%;height:15px;font-size: 14px;margin-left:10px;position:absolute;top:126px;}
 		#main .main_3 .main_right .main_right_botton ul li .cptsim a span{color:#fff;width:100%;height:15px;font-size: 14px;margin-left:10px;position:absolute;top:68px;}
@@ -364,7 +399,7 @@
 #signUp .signBox .signheader a{margin-top:21px}
 #signUp .signBox .signBox_ct{width:675px;height: 368px;margin:75px 264px}
 #signUp .signBox .signBox_ct ul li{width:100%;height:38px;list-style: none;font-size: 15px;}
-#signUp .signBox .signBox_ct ul li span.signhm{width:71px;height: 100%;text-align: right;}
+#signUp .signBox .signBox_ct ul li span.signhm{width:82px;height: 100%;text-align: right;}
 #signUp .signBox .signBox_ct ul li input{width:286px;height:100%;border:none;outline: none;border:1px solid #cccccc;background: #f3f3f3;margin-left: 5px;}
 #signUp .signBox .signBox_ct ul li span.tx{margin-left: 5px;color:#bbb;display: none;}
 #signUp .signBox .signBox_ct ul li button{margin-left:3px;border-radius:5px;cursor:pointer;border:none;outline:none;background: #ADADAD;width:68px;height:38px;color:#fff}
